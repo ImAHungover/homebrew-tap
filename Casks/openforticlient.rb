@@ -1,6 +1,6 @@
 cask "openforticlient" do
-  version "1.0.0"
-  sha256 "59f1d5d689687cde67ff43e3e7a1f741d6874bef37d5c92ff981e03a7918be0e"
+  version "1.1.0"
+  sha256 "b99e857fb8c25e5d1b3e602cf1807df4d3e63699819e6299b6e3be1c6763ccf7"
 
   url "https://github.com/ImAHungover/open-forti-client/releases/download/v#{version}/OpenFortiClient-#{version}.dmg"
   name "OpenFortiClient"
