@@ -10,8 +10,6 @@ If Homebrew says a cask comes from an untrusted tap, trust it first, for example
 brew install --cask imahungover/tap/lore-chess
 ```
 
-It is not notarized by Apple yet. If macOS blocks it, run `xattr -dr com.apple.quarantine /Applications/LoreChess.app`.
-
 Uninstall with `brew uninstall --cask lore-chess`; add `--zap` to also remove saved games and settings.
 
 ## OpenFortiClient

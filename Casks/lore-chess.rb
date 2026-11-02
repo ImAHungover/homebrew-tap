@@ -1,6 +1,6 @@
 cask "lore-chess" do
-  version "1.8.0"
-  sha256 "e1c81f82000c8e49f0281a04e2eef5db097cf2e1bc60f0a4d36bff532064ff9e"
+  version "1.8.1"
+  sha256 "6a4510a0511e809b35423f2debc2c4897ecd52d95fc6172f773aad1349d8bf85"
 
   on_arm do
     depends_on macos: :ventura
@@ -17,9 +17,4 @@ cask "lore-chess" do
   app "LoreChess.app"
 
   zap trash: "~/Library/Application Support/Godot/app_userdata/Lore Chess"
-
-  caveats <<~EOS
-    Lore Chess is not notarized by Apple yet. If macOS blocks it, run:
-      xattr -dr com.apple.quarantine #{appdir}/LoreChess.app
-  EOS
 end
