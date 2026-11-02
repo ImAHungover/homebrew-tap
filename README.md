@@ -1,5 +1,21 @@
 # ImAHungover Homebrew tap
 
+If Homebrew says a cask comes from an untrusted tap, trust it first, for example with `brew trust --cask imahungover/tap/lore-chess`.
+
+## Lore Chess
+
+[Lore Chess](https://github.com/ImAHungover/lore-chess-releases) is chess against Stockfish, on a 2D board or in an animated 3D dungeon.
+
+```sh
+brew install --cask imahungover/tap/lore-chess
+```
+
+It is not notarized by Apple yet. If macOS blocks it, run `xattr -dr com.apple.quarantine /Applications/LoreChess.app`.
+
+Uninstall with `brew uninstall --cask lore-chess`; add `--zap` to also remove saved games and settings.
+
+## OpenFortiClient
+
 Homebrew casks for [OpenFortiClient](https://github.com/ImAHungover/open-forti-client), an open-source client for Fortinet SSL-VPN gateways on macOS.
 
 ```sh
