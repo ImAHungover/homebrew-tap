@@ -1,6 +1,6 @@
 cask "lore-chess" do
-  version "1.9.0"
-  sha256 "88b1d06e7f96a35b36e46e644c13a00e59bf720b62ded24cc0090d3b5f5901a2"
+  version "1.10.0"
+  sha256 "f27f31ebdd1f5b1ded0d11a5eda18b79750c1dacd000249cd8de38823a8e6826"
 
   on_arm do
     depends_on macos: :ventura
