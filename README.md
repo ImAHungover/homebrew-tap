@@ -14,7 +14,7 @@ Uninstall with `brew uninstall --cask lore-chess`; add `--zap` to also remove sa
 
 ## Lore Bomber
 
-[Lore Bomber](https://github.com/ImAHungover/lore-bomber) is an arena bomber game in a low-poly dungeon: five stages, three maps, keyboard or gamepad.
+[Lore Bomber](https://github.com/ImAHungover/lore-bomber-releases) is an arena bomber game in a low-poly dungeon: five stages, three maps, keyboard or gamepad.
 
 ```sh
 brew install --cask imahungover/tap/lore-bomber

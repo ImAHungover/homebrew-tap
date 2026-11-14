@@ -9,10 +9,10 @@ cask "lore-bomber" do
     depends_on :macos
   end
 
-  url "https://github.com/ImAHungover/lore-bomber/releases/download/v#{version}/LoreBomber-mac.zip"
+  url "https://github.com/ImAHungover/lore-bomber-releases/releases/download/v#{version}/LoreBomber-mac.zip"
   name "Lore Bomber"
   desc "Arena bomber game in a low-poly dungeon"
-  homepage "https://github.com/ImAHungover/lore-bomber"
+  homepage "https://github.com/ImAHungover/lore-bomber-releases"
 
   app "LoreBomber.app"
 
