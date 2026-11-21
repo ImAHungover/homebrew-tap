@@ -1,6 +1,6 @@
 cask "lore-bomber" do
-  version "0.8.0"
-  sha256 "1530ce3dff526c2694750086808436c7d65f63ff8f49f7c19e8a0f844dd320b4"
+  version "0.9.0"
+  sha256 "ba6b3a4bc47ea42f9c8f9b172c30ab0bcb181e9ca930a72d98bcf8535ccd5fb2"
 
   on_arm do
     depends_on macos: :ventura
